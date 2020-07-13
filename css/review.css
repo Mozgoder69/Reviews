@@ -1,0 +1,74 @@
+body { 
+    background: #182028;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 90%;
+    padding: 0;
+}
+
+body, nav {
+    box-shadow: 0 2px 4px #000000;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.ref {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+.ref a {
+    border-bottom: 1px solid #182028;
+    display: block;
+    height: 2.5em;
+    padding-top: 20px;
+}
+
+a, .click {
+    color: #708090;
+}
+
+a {
+    font-size: medium;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin-left: -2.5em;
+}
+
+img, .info {
+    margin-bottom: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+h1, h2 {
+    margin: 2%;
+    text-align: center;
+}
+
+.del:not(:checked) + .info, input {
+    display: none;
+}
+
+.del:checked + .info {
+    display: block;
+}
+
+a:hover, .click:hover {
+    color: white;
+    cursor: pointer;
+} 
+
+.ref:hover a {
+    border-bottom: 1px solid #80c0ff;
+}
